@@ -1,41 +1,39 @@
 {
-    "name": "skookum",
-    "displayName": "Skookum",
-    "description": "Color scheme for Visual Studio Code",
-    "version": "0.0.1",
-    "publisher": "Nathan Toews",
-    "license": "CC0-1.0",
-    "author": {
-        "name": "Nathan Toews",
-        "url": "http://github.com/nathantoews"
-    },
-    "keywords": [
-        "visual studio code",
-        "themes",
-        "color theme",
-        "theming",
-        "extension"
-    ],
-    "repository": {
-        "type": "git",
-        "url": ""
-    },
-    "bugs": {
-        "url": ""
-    },
-    "engines": {
-        "vscode": "^1.0.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Skookum",
-                "uiTheme": "vs-dark",
-                "path": "./themes/skookum.json"
-            }
-        ]
-    }
+  "name": "skookum",
+  "displayName": "Skookum",
+  "description": "Color scheme for Visual Studio Code",
+  "version": "0.0.1",
+  "publisher": "Nathan Toews",
+  "license": "CC0-1.0",
+  "author": {
+    "name": "Nathan Toews",
+    "url": "http://github.com/nathantoews"
+  },
+  "keywords": [
+    "visual studio code",
+    "themes",
+    "color theme",
+    "theming",
+    "extension"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Skookum",
+        "uiTheme": "vs-dark",
+        "path": "./themes/skookum.json"
+      }
+    ]
+  }
 }
